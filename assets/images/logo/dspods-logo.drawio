@@ -1,0 +1,28 @@
+<mxfile host="65bd71144e" modified="2021-01-30T20:27:57.588Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="3gKKXeDPWm8PK9b3xu_K" version="13.10.0" type="embed">
+    <diagram id="pKGgeerDfC5s7I-A9WEL" name="Page-1">
+        <mxGraphModel dx="1105" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="190" y="204.6" width="96" height="92.15415569072249" as="geometry"/>
+                </mxCell>
+                <mxCell id="auyaVYm1J5WB6Il2wqP_-34" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;rotation=15;container=0;" parent="3" vertex="1">
+                    <mxGeometry x="40" y="20" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="auyaVYm1J5WB6Il2wqP_-28" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/graphic-design-72/32/Graphic_Design_curve_editor-128.png;sketch=1;strokeWidth=2;rotation=15;container=0;" parent="3" vertex="1">
+                    <mxGeometry x="50" y="40" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="auyaVYm1J5WB6Il2wqP_-35" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;strokeWidth=2;rotation=-15;container=0;" parent="3" vertex="1">
+                    <mxGeometry x="9" y="28" width="40" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="auyaVYm1J5WB6Il2wqP_-29" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.sum;sketch=1;strokeWidth=2;rotation=-15;container=0;" parent="3" vertex="1">
+                    <mxGeometry x="19" y="48" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.headphones;pointerEvents=1;strokeWidth=2;" vertex="1" parent="3">
+                    <mxGeometry width="96" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
