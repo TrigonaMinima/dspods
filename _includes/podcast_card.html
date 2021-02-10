@@ -1,0 +1,77 @@
+<!-- begin post -->
+<!-- {% assign author = site.authors[post.author] %} -->
+
+<div class="col-sm-3 py-1 px-1 podcast-card card-{{ post.status }}" id="{{ id }}">
+    <div class="card">
+
+        <div class="mx-auto d-block border">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {% if post.image %}
+
+                {% if site.lazyimages == "enabled" %}
+                <img class="img-fluid lazyimg"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
+                    data-src="{% if post.image contains " ://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{
+                    post.image }}{% endif %}" alt="{{ post.title }}">
+                {% else %}
+                <img class="img-fluid" src="{% if post.image contains " ://" %}{{ post.image }}{% else %}{{ site.baseurl
+                    }}/{{ post.image }}{% endif %}" alt="{{ post.title }} thumbnail">
+                {% endif %}
+
+                <!-- mark inactive podcasts -->
+                {% if post.status == "inactive" %}
+                <h4 class="carousel-caption card-{{ post.status }}-overlay">Podcast Inactive
+                </h4>
+                {% endif %}
+
+                {% endif %}
+            </a>
+        </div>
+
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <h4 class="card-text">{{ post.description | strip_html | truncatewords:10 }}</h4>
+        </div>
+
+        <div class="card-footer bg-black d-flex justify-content-center">
+            {% if post.pocketcasts %}
+            <span>
+                <a href="{{ site.baseurl }}{{ post.pocketcasts }}" title="Pocketcasts">
+                    <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/pocketcasts.png"
+                        alt="Pocketcasts podcast link">
+                </a>
+            </span>
+            {% endif %}
+
+            {% if post.spotify %}
+            <span>
+                <a href="{{ site.baseurl }}{{ post.spotify }}" title="Spotify">
+                    <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/spotify.png"
+                        alt="Spotify podcast link">
+                </a>
+            </span>
+            {% endif %}
+
+            {% if post.apple_pod %}
+            <span>
+                <a href="{{ site.baseurl }}{{ post.apple_pod }}" title="Apple Podcast">
+                    <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/apple-podcasts.png"
+                        alt="Apple podcast link">
+                </a>
+            </span>
+            {% endif %}
+
+            {% if post.youtube %}
+            <span>
+                <a href="{{ site.baseurl }}{{ post.youtube }}" title="YouTube">
+                    <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/YouTube-icon.png"
+                        alt="Youtube link">
+                </a>
+            </span>
+            {% endif %}
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>

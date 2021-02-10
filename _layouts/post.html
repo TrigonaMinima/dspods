@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+<br>
+<br>
+<br>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <!-- Post Title -->
+            <h1 class="posttitle">{{ page.title }}</h1>
+            <hr>
+
+            {% if page.status == "inactive" %}
+
+            <!-- calculate number of inactive days -->
+            {% assign dateStart = page.last_published | date: '%s' %}
+            {% assign nowTimestamp = 'now' | date: '%s' %}
+            {% assign diffSeconds = nowTimestamp | minus: dateStart %}
+            {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+
+            <div class="alert alert-warning text-center" role="alert">
+                This podcast has been inactive since {{ page.last_published | date: "%a, %b %d, %Y"}} ({{ diffDays }}
+                days).
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <!-- Post Featured Image -->
+            {% if page.image %}
+
+            {% if site.lazyimages == "enabled" %}
+            <img class="podcast-image img-fluid lazyimg"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
+                data-src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image
+                }}{% endif %}" alt="{{ page.title }}">
+            {% else %}
+            <img class="podcast-image img-fluid" src="{% if page.image contains " ://" %}{{ page.image }}{% else %}{{
+                site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+            {% endif %}
+
+            {% endif %}
+        </div>
+        <div class="col">
+            <!-- podcast icons -->
+            <div>
+                {% if page.pocketcasts %}
+                <span class="pod-icons">
+                    <a href="{{ site.baseurl }}{{ page.pocketcasts }}" title="Read Story">
+                        <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/pocketcasts.png"
+                            alt="pocketcasts podcast link">
+                    </a>
+                </span>
+                {% endif %}
+
+                {% if page.spotify %}
+                <span class="pod-icons">
+                    <a href="{{ site.baseurl }}{{ page.spotify }}" title="Read Story">
+                        <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/spotify.png"
+                            alt="spotify podcast link">
+                    </a>
+                </span>
+                {% endif %}
+
+                {% if page.apple_pod %}
+                <span class="pod-icons">
+                    <a href="{{ site.baseurl }}{{ page.apple_pod }}" title="Read Story">
+                        <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/apple-podcasts.png"
+                            alt="Apple podcast link">
+                    </a>
+                </span>
+                {% endif %}
+
+                {% if page.youtube %}
+                <span class="pod-icons">
+                    <a href="{{ site.baseurl }}{{ page.youtube }}" title="Read Story">
+                        <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/YouTube-icon.png"
+                            alt="Youtube link">
+                    </a>
+                </span>
+                {% endif %}
+            </div>
+            <br>
+            <div class="text-muted">
+                <i class="fas fa-tags fa-xs"></i>
+                <span>{{ page.categories | join: ", " }}</span>
+            </div>
+            <div class="text-muted">
+                {% if page.last_published %}
+                <i class="far fa-calendar-check"></i>
+                <span>Recent release on {{ page.last_published | date: "%a, %b %d, %Y"}}</span>
+                {% endif %}
+            </div>
+            <div class="text-muted">
+                {% if page.frequency %}
+                <i class="far fa-calendar-alt"></i>
+                <span>Released every {{ page.frequency }} days</span>
+                {% endif %}
+            </div>
+            <div class="text-muted">
+                {% if page.duration %}
+                <i class="far fa-clock fa-sm"></i>
+                <span> {{ page.duration }}</span>
+                {% endif %}
+            </div>
+            <br>
+            <p>{{ page.description }}</p>
+
+            <a href="{{ page.podurl }}">Visit website</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Post -->
+    <div class="col flex-first flex-md-unordered">
+        <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+        {% if site.adsense == "enabled" %}
+        {% include adsense-under-header.html %}
+        {% endif %}
+
+        <!-- Post Content -->
+        <div class="article-post">
+            {{content}}
+        </div>
+    </div>
+</div>

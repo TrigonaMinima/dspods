@@ -1,0 +1,45 @@
+# Site
+name: "DSPods"
+title: "DSPods"
+description: "An Open Source collection of podcasts about Data Science."
+logo: 'assets/images/logo/dspods-logo.svg'
+favicon: 'assets/images/logo.png'
+# baseurl: https://shivamrana.me/dspods
+baseurl: https://dspods.netlify.app
+permalink: /:title/
+
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+# adsense-data-ad-client: "ca-pub-3412143450191416"
+# adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude:
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - episodes.py
+  - templates
+  - podcasts.md

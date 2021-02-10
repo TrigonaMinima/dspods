@@ -1,0 +1,46 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Posts Index -->
+<section class="podcast-cards">
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <p class="col">{{ site.description }} Podcasts are ordered by the most recently published episode's date.
+            </p>
+            <br>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col px-1">
+                <!-- button to collapse the filter -->
+                <button class="btn btn-secondry" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fas fa-align-left"></i>
+                    <span>Categories</span>
+                </button>
+            </div>
+            <div class="col px-1 d-flex justify-content-end">
+                {% include search.html %}
+            </div>
+        </div>
+        <div class="row">
+            {% include filter.html %}
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            {% assign id = 0 %}
+            {% assign posts = site.posts | sort: "last_published" | reverse %}
+            {% for post in posts %}
+            {% assign id = id | plus:1 %}
+
+            {% include podcast_card.html %}
+
+            {% endfor %}
+        </div>
+    </div>
+</section>
