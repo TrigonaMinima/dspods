@@ -42,26 +42,28 @@
 
 <!-- radio button based filter -->
 <div class="collapse container-fluid col" id="collapseExample">
-    <div class="d-inline-flex pe-2 col-auto">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="showall" checked
-            onchange="filterUsingCategory('All')">
-        <label class=" form-check-label" for="showall">
-            All Pods ({{ site.posts.size }})
-        </label>
-    </div>
+    <fieldset>
+        <div class="d-inline-flex pe-2 col-auto">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="showall" checked
+                onchange="filterUsingCategory('All')">
+            <label class=" form-check-label" for="showall">
+                All Pods ({{ site.posts.size }})
+            </label>
+        </div>
 
-    {% assign categories = site.categories | sort %}
-    {% for category in categories %}
-    {% assign cat = category | first %}
-    <div class="d-inline-flex pe-2 col-auto">
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="{{ cat }}"
-            onchange="filterUsingCategory(this.id)">
-        <label class="form-check-label" for="{{ cat }}">
-            {{ cat | capitalize }} ({{ category[1].size }})
-        </label>
-    </div>
-    {% endfor %}
+        {% assign categories = site.categories | sort %}
+        {% for category in categories %}
+        {% assign cat = category | first %}
+        <div class="d-inline-flex pe-2 col-auto">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="{{ cat }}"
+                onchange="filterUsingCategory(this.id)">
+            <label class="form-check-label" for="{{ cat }}">
+                {{ cat | capitalize }} ({{ category[1].size }})
+            </label>
+        </div>
+        {% endfor %}
+    </fieldset>
     <br>
-    <br>
+    <!-- <br> -->
 </div>
 <script src="{{ site.baseurl }}/assets/js/filtering.js"></script>
