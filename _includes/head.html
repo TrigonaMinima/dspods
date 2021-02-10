@@ -1,0 +1,32 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="{{ site.baseurl }}/{{ site.logo }}">
+
+    <title>{{site.name}} | {{ page.title }}</title>
+
+    {% seo %}
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+
+    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+    <!-- defer loading of font and font awesome -->
+    <noscript id="deferred-styles">
+        <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+            integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </noscript>
+
+    {% if jekyll.environment == 'production' %}
+    <!-- change your GA id in _config.yml -->
+    {% include google_analytics.html %}
+    {% endif %}
+</head>

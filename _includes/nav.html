@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top navigation nav-down">
+    <div class="container pr-0">
+
+        <!-- logo -->
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        </a>
+
+        <!-- website title -->
+        <div class="mainheading">
+            <a href="{{ site.baseurl }}/">
+                <h1 class="sitetitle">{{ site.name }}</h1>
+            </a>
+        </div>
+
+        <!-- burger menu for small screens -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+            <nav class="navbar-nav ml-auto nav-fill">
+                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+            </nav>
+        </div>
+
+    </div>
+</nav>

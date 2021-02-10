@@ -1,0 +1,42 @@
+<footer class="footer bg-light text-center">
+    <div class="container">
+        <!--Grid row-->
+        <div class="row">
+
+            <div class="col-sm mt-3">
+                <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+                <!-- <h1 class="col-xs">{{ site.name }}</h1> -->
+            </div>
+
+            <div class="col col-md-5">
+                <h2 class="text-uppercase">{{ site.name }}</h2>
+                <p>{{ site.description }}</p>
+                <p>Designed and built using <a href="https://jekyllrb.com/">Jekyll</a> and <a
+                        href="https://getbootstrap.com/">Bootstrap</a>. The <a
+                        href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a>
+                    helped with the initial design.</p>
+            </div>
+
+            <!--Grid column-->
+            <div class="col-md col-md-4 mt-2">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="{{ site.baseurl }}/about"><i class="fas fa-info-circle"></i> About</a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fab fa-github"></i> GitHub Repo</a>
+                    </li>
+                    <li>
+                        <a href="#!"><i class="fas fa-info-circle"></i> Contributing Guidelines</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center p" style="background-color: rgba(0, 0, 0, 0.2)">
+        Copyright © {{ site.time | date: "%Y" }} <span class="text-dark">{{ site.name }}</span>
+    </div>
+</footer>

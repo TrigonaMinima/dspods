@@ -1,0 +1,10 @@
+<!-- <div class="mb-2"> -->
+<form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <div class="input-group mb-2">
+        <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="155"
+            value="" placeholder="Type and enter..." />
+    </div>
+</form>
+
+<script src="{{site.baseurl}}/assets/js/lunr.js"></script>
+<script src="{{site.baseurl}}/assets/js/lunrsearchengine.js"></script>
