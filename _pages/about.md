@@ -31,4 +31,4 @@ There are two ways of helping:
 1. Raise an issue on the [repository](https://github.com/TrigonaMinima/dspods) with the appropriate details.
 2. Make the change and submit a pull request.
 
-Short contribution guidelines are mentioned in the [Repository Readme]().
+Short contribution guidelines are mentioned in the repository [readme doc](https://github.com/TrigonaMinima/dspods/blob/gh-pages/README.md).
