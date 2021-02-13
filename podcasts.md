@@ -28,3 +28,4 @@ List of podcasts is as follows:
 1. [The Banana Data Podcast](_posts/2021-02-13-banana.md)
 1. [Wierd AI](_posts/2021-02-14-wierd_ai.md)
 1. [Machine Learning Street Tal‪k‬](_posts/2021-02-14-ml_street_talk.md)
+1. [Gradient Dissent - A Machine Learning Podcast by W&‪B‬](_posts/2021-02-13-grad_diss.md)
