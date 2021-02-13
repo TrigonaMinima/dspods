@@ -27,3 +27,4 @@ List of podcasts is as follows:
 1. [Women in Data Science](_posts/2021-02-13-wids.md)
 1. [The Banana Data Podcast](_posts/2021-02-13-banana.md)
 1. [Wierd AI](_posts/2021-02-14-wierd_ai.md)
+1. [Machine Learning Street Tal‪k‬](_posts/2021-02-14-ml_street_talk.md)
