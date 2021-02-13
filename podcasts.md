@@ -25,3 +25,4 @@ List of podcasts is as follows:
 1. [Talk Python To Me](_posts/2021-01-30-talk_py.md)
 1. [The TWIML AI Podcast](_posts/2021-01-30-twimlai.md)
 1. [Women in Data Science](_posts/2021-02-13-wids.md)
+1. [The Banana Data Podcast](_posts/2021-02-13-banana.md)
