@@ -15,7 +15,7 @@
                     post.image }}{% endif %}" alt="{{ post.title }}">
                 {% else %}
                 <img class="img-fluid" src="{% if post.image contains " ://" %}{{ post.image }}{% else %}{{ site.baseurl
-                    }}/{{ post.image }}{% endif %}" alt="{{ post.title }} thumbnail">
+                    }}/{{ post.image }}{% endif %}" alt="{{ post.title }} thumbnail" loading="lazy">
                 {% endif %}
 
                 <!-- mark inactive podcasts -->
@@ -40,7 +40,7 @@
             <span>
                 <a href="{{ post.pocketcasts }}" title="Pocketcasts">
                     <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/pocketcasts.png"
-                        alt="Pocketcasts podcast link">
+                        alt="Pocketcasts podcast link" loading="lazy">
                 </a>
             </span>
             {% endif %}
@@ -49,7 +49,7 @@
             <span>
                 <a href="{{ post.spotify }}" title="Spotify">
                     <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/spotify.png"
-                        alt="Spotify podcast link">
+                        alt="Spotify podcast link" loading="lazy">
                 </a>
             </span>
             {% endif %}
@@ -58,7 +58,7 @@
             <span>
                 <a href="{{ post.apple_pod }}" title="Apple Podcast">
                     <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/apple-podcasts.png"
-                        alt="Apple podcast link">
+                        alt="Apple podcast link" loading="lazy">
                 </a>
             </span>
             {% endif %}
@@ -67,7 +67,7 @@
             <span>
                 <a href="{{ post.youtube }}" title="YouTube">
                     <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/YouTube-icon.png"
-                        alt="Youtube link">
+                        alt="Youtube link" loading="lazy">
                 </a>
             </span>
             {% endif %}

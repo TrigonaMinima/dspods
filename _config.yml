@@ -32,7 +32,8 @@ adsense: "disabled"
 # adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
+# lazyimages: "enabled"
+lazyimages: "disabled"
 
 exclude:
   - LICENSE.txt
