@@ -1,6 +1,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="author" content="Shivam Rana">
+    <meta name="keywords"
+        content="data science,podcast,list,programming,machine learning,machine learning engineering" />
 
     {% if page.image %}
     <meta property="og:image" content="{{ page.image }}">
@@ -11,11 +18,22 @@
     <link rel="icon" href="{{ site.baseurl }}/{{ site.logo }}">
 
     <title>{{site.name}}: Data Science Podcasts | {{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
 
-    {% seo %}
+    <!-- helps the website to be crawled by robots -->
+    <meta name="robots"
+        content="index,follow,max-video-preview:-1,max-snippet:-1,max-image-preview:large, max-video-preview:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="qbYVDDNjcMheF1obkl4U_0O_DtcHocqAxMITzvZ7tm4" />
+
+
+    <link rel="preconnect" href="https://ajax.googleapis.com">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -25,12 +43,12 @@
     <!-- <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet"> -->
 
     <!-- defer loading of font and font awesome -->
+    <link rel="preconnect" href="https://use.fontawesome.com">
     <noscript id="deferred-styles">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
             integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </noscript>
 
-    <!-- change your GA id in _config.yml -->
     {% include google_analytics.html %}
 </head>
 
