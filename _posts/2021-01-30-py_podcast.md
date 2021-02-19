@@ -9,6 +9,7 @@ rss: https://www.pythonpodcast.com/feed/mp3/
 pocketcasts: https://pca.st/podcast/f9f7b8c0-c366-0132-3c5e-0b39892d38e0
 spotify:
 apple_pod: https://itunes.apple.com/us/podcast/podcast.-init/id981834425
+overcast: https://overcast.fm/itunes981834425/the-python-podcast-init
 youtube:
 last_published: 2021-02-16 02:55:24
 frequency: 7
