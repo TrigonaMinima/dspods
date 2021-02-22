@@ -39,7 +39,7 @@ You can contribute in multiple ways:
 
 You can provide help in two ways:
 
-1. Raise an issue on [here]() with as many of the following the details as possible about the podcast:
+1. Raise an issue [here](https://github.com/TrigonaMinima/dspods/issues/new) with as many of the following the details as possible about the podcast:
     - Title
     - Official website of the podcast
     - RSS feed of the podcast
@@ -48,3 +48,4 @@ You can provide help in two ways:
     - Apple podcast link
     - YouTube
 2. Make the change or add a new file and submit a pull request. Each podcast is represented as a markdown file inside [`_posts`](_posts) directory with a yaml front matter with the Jekyll then uses to build the final website. The fields which you need to provide are: `title`, `categories`, `image`, `description`, `podurl`, `rss`, `pocketcasts`, `spotify`, `apple_pod`, and `youtube`. All the podcast images are present in the [`/assets/images/pods`](/assets/images/pods). Try to keep the resolution `1000 x 1000` pixels.
+3. Add the podcast in the [podcasts.md](podcasts.md).
