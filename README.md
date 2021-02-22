@@ -39,13 +39,15 @@ You can contribute in multiple ways:
 
 You can provide help in two ways:
 
-1. Raise an issue [here](https://github.com/TrigonaMinima/dspods/issues/new) with as many of the following the details as possible about the podcast:
-    - Title
-    - Official website of the podcast
-    - RSS feed of the podcast
-    - Pocketcasts link
-    - Spotify link
-    - Apple podcast link
-    - YouTube
-2. Make the change or add a new file and submit a pull request. Each podcast is represented as a markdown file inside [`_posts`](_posts) directory with a yaml front matter with the Jekyll then uses to build the final website. The fields which you need to provide are: `title`, `categories`, `image`, `description`, `podurl`, `rss`, `pocketcasts`, `spotify`, `apple_pod`, and `youtube`. All the podcast images are present in the [`/assets/images/pods`](/assets/images/pods). Try to keep the resolution `1000 x 1000` pixels.
-3. Add the podcast in the [podcasts.md](podcasts.md).
+1. Raise an issue [here](https://github.com/TrigonaMinima/dspods/issues/new). Select the "New Podcast" issue template and just fill the details asked there
+2. Make the change or add a new file and submit a pull request. Each podcast is represented as a markdown file inside [`_posts`](_posts) directory with a yaml front matter. Jekyll uses this file to build the final website. Here is a checklist to be followed:
+
+    - Add title.
+    - Add categories you think best describe the podcast.
+    - Add description.
+    - Add podcast image with at least 600x600 pixels (preferably `webp` format). Reduce the size of the image using the [tinypng.com](https://tinypng.com/). All the podcast images are present in the [`/assets/images/pods`](/assets/images/pods)
+    - Add podcast website URL.
+    - Add RSS feed link.
+    - Add one or more of Pocketcasts, Spotify, Apple Podcasts (don't use iTunes URL), YouTube.
+    - Add the podcast entry in the [./podcasts.md](https://github.com/TrigonaMinima/dspods/blob/gh-pages/podcasts.md).
+    - Commit message is as follows: `Add: New podcast - <podcast_name>`.
