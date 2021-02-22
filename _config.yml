@@ -4,7 +4,7 @@ title: "DSPods"
 description: "An Open Source collection of podcasts about Data Science."
 logo: 'assets/images/logo/dspods-logo.svg'
 favicon: 'assets/images/logo.png'
-baseurl: https://dspods.netlify.app
+# baseurl: https://dspods.netlify.app
 permalink: /:title/
 
 include:
