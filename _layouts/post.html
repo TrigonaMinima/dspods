@@ -73,6 +73,15 @@ layout: default
                             alt="Apple podcast link">
                     </a>
                 </span>
+
+                {% endif %}
+                {% if page.overcast %}
+                <span class="pod-icons">
+                    <a href="{{ page.overcast }}" title="Read Story">
+                        <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/overcast.png"
+                            alt="Overcast podcast link">
+                    </a>
+                </span>
                 {% endif %}
 
                 {% if page.youtube %}
