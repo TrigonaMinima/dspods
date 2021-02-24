@@ -50,7 +50,7 @@ layout: default
             <div>
                 {% if page.pocketcasts %}
                 <span class="pod-icons">
-                    <a href="{{ page.pocketcasts }}" title="Read Story">
+                    <a href="{{ page.pocketcasts }}" title="Pocketcasts">
                         <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/pocketcasts.png"
                             alt="pocketcasts podcast link">
                     </a>
@@ -59,7 +59,7 @@ layout: default
 
                 {% if page.spotify %}
                 <span class="pod-icons">
-                    <a href="{{ page.spotify }}" title="Read Story">
+                    <a href="{{ page.spotify }}" title="Spotify">
                         <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/spotify.png"
                             alt="spotify podcast link">
                     </a>
@@ -68,16 +68,25 @@ layout: default
 
                 {% if page.apple_pod %}
                 <span class="pod-icons">
-                    <a href="{{ page.apple_pod }}" title="Read Story">
+                    <a href="{{ page.apple_pod }}" title="Apple Podcast">
                         <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/apple-podcasts.png"
                             alt="Apple podcast link">
                     </a>
                 </span>
                 {% endif %}
 
+                {% if page.overcast %}
+                <span class="pod-icons">
+                    <a href="{{ page.overcast }}" title="Overcast">
+                        <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/overcast.png"
+                            alt="Overcast podcast link">
+                    </a>
+                </span>
+                {% endif %}
+
                 {% if page.youtube %}
                 <span class="pod-icons">
-                    <a href="{{ page.youtube }}" title="Read Story">
+                    <a href="{{ page.youtube }}" title="YouTube">
                         <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/YouTube-icon.png"
                             alt="Youtube link">
                     </a>
