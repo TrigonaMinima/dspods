@@ -3,7 +3,7 @@ layout: post
 title: PolicyViz
 categories: [Viz]
 image: assets/images/pods/policyviz.
-description: "Jn Schwabish | Economist, Data Visualization, and Presentation Specialist"
+description: "Jon Schwabish | Economist, Data Visualization, and Presentation Specialist"
 podurl: https://policyviz.com/podcast/
 rss: http://policyviz.com/feed/
 pocketcasts:
