@@ -1,18 +1,19 @@
 ---
 layout: post
-title: Half Stack Data Science
+title: PolicyViz
 categories: [Viz]
-image: assets/images/pods/halfstack.webp
-description: "Half Stack Data Science is a podcast by David Asboth and Dr. Shaun McGirr about the realities of Data Science in the enterprise business world."
-podurl: https://halfstackdatascience.com
-rss: https://anchor.fm/s/2cc2e940/podcast/rss
-pocketcasts: https://pca.st/AztZ
-spotify: https://open.spotify.com/show/4MTKn0w2jy9bux1sit4xja
-apple_pod: https://podcasts.apple.com/us/podcast/half-stack-data-science-podcast/id1429751562
+image: assets/images/pods/policyviz.
+description: "Jn Schwabish | Economist, Data Visualization, and Presentation Specialist"
+podurl: https://policyviz.com/podcast/
+rss: http://policyviz.com/feed/
+pocketcasts:
+spotify: https://open.spotify.com/show/3KWkTCoMWYf3KWqISoZqFg?si=H9dQsnrGSO6thB7ADRTvgg
+apple_pod: https://podcasts.apple.com/us/podcast/the-policyviz-podcast/id982966091
+overcast: https://overcast.fm/itunes982966091/the-policyviz-podcast
 youtube:
-anchor: https://anchor.fm/half-stack-data-science
-last_published: 2020-12-19 19:21:09
-frequency: 86
-duration: 23 mins to 54 mins
+anchor: 
+last_published: 2021-02-23
+frequency: 
+duration: 26 mins to 37 mins
 status: active
 ---
