@@ -35,4 +35,5 @@ List of podcasts is as follows:
 29. [NLP Highlights](_posts/2021-02-15-nlp_high.md)
 30. [Half Stack Data Science](_posts/2021-02-22-half_stack.md)
 31. [Stats + Stories](_posts/2021-02-18-stats_stories.md)
-32. [AI After Work](_posts/2021-02-19-ai-after-work-md)
+32. [AI After Work](_posts/2021-02-19-ai-after-work.md)
+33. [PolicyViz](_posts/2021-02-23-policy_viz.md)
