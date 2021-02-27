@@ -42,6 +42,7 @@ You can provide help in two ways:
 1. Raise an issue [here](https://github.com/TrigonaMinima/dspods/issues/new). Select the "New Podcast" issue template and just fill the details asked there
 2. Make the change or add a new file and submit a pull request. Each podcast is represented as a markdown file inside [`_posts`](_posts) directory with a yaml front matter. Jekyll uses this file to build the final website. Here is a checklist to be followed:
 
+    - Git pull (and rebase) to pull in the new changes before you push your commits and a PR.
     - Add title.
     - Add categories you think best describe the podcast.
     - Add description.
@@ -51,3 +52,4 @@ You can provide help in two ways:
     - Add one or more of Pocketcasts, Spotify, Apple Podcasts (don't use iTunes URL), YouTube.
     - Add the podcast entry in the [./podcasts.md](https://github.com/TrigonaMinima/dspods/blob/gh-pages/podcasts.md).
     - Commit message is as follows: `Add: New podcast - <podcast_name>`.
+    - Keep everything related to a podcast within a single commit.
