@@ -63,6 +63,15 @@
             </span>
             {% endif %}
 
+            {% if post.overcast %}
+            <span>
+                <a href="{{ post.overcast }}" title="Overcast">
+                    <img class="pod-sub-thumb" src="{{site.baseurl}}/assets/images/platforms/overcast.png"
+                        alt="Overcast podcast link" loading="lazy">
+                </a>
+            </span>
+            {% endif %}
+            
             {% if post.youtube %}
             <span>
                 <a href="{{ post.youtube }}" title="YouTube">
