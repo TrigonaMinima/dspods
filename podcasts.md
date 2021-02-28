@@ -38,3 +38,4 @@ List of podcasts is as follows:
 32. [AI After Work](_posts/2021-02-19-ai-after-work.md)
 33. [PolicyViz](_posts/2021-02-23-policy_viz.md)
 34. [Learning Bayesian Statistics](_posts/2021-02-27-learn_bayes_stats.md)
+35. [Machine Learning - Software Engineering Daily](_posts/2021-02-22-software-daily-ml.md)
