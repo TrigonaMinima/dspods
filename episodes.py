@@ -107,12 +107,16 @@ def get_last_published(rss: fp.util.FeedParserDict) -> str:
     """
     if rss is None:
         return ""
-    dt = rss["entries"][0]["published_parsed"]
+
+    if rss["entries"]:
+        dt = rss["entries"][0]["published_parsed"]
+    elif "updated_parsed" in rss["feed"]:
+        dt = rss["feed"]["updated_parsed"]
     dt = time.strftime("%Y-%m-%d %H:%M:%S", dt)
     return dt
 
 
-def get_frequency(rss: fp.util.FeedParserDict) -> int:
+def get_frequency(rss: fp.util.FeedParserDict) -> int or None:
     """
     Calculate the average time gap between episodes.
 
@@ -123,17 +127,17 @@ def get_frequency(rss: fp.util.FeedParserDict) -> int:
 
     Returns
     -------
-    int
+    int or None
     """
-    if rss is None:
-        return None
 
-    episodes = len(rss["entries"])
+    if rss is None or not rss["entries"]:
+        return None
 
     t1 = rss["entries"][0]["published_parsed"]
     t2 = rss["entries"][-1]["published_parsed"]
     time_window = time.mktime(t1) - time.mktime(t2)
 
+    episodes = len(rss["entries"])
     freq = time_window / episodes
     freq = freq / (60 * 60 * 24)
     return int(freq)
@@ -174,7 +178,7 @@ def time2human(t: datetime.timedelta) -> str:
     return t_human
 
 
-def get_avg_duration(rss: fp.util.FeedParserDict) -> str:
+def get_avg_duration(rss: fp.util.FeedParserDict) -> str or None:
     """
     Calculate the average duration of episodes in the podcast.
 
@@ -242,7 +246,7 @@ def get_podcast_activity(rss: fp.util.FeedParserDict) -> str:
     str
         Returns "inactive" or "active"
     """
-    if rss is None:
+    if rss is None or not rss["entries"]:
         return ""
 
     today = time.gmtime()
