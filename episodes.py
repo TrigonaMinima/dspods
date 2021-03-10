@@ -1,4 +1,6 @@
+import os
 import time
+import urllib
 import datetime
 import statistics as stats
 
@@ -40,7 +42,14 @@ def read_rss(url: str) -> fp.util.FeedParserDict:
     if not url:
         return None
 
-    d = fp.parse(url)
+    try:
+        d = fp.parse(url)
+    except urllib.error.URLError as e:
+        print("urllib.error.URLError", e.reason)
+        return None
+    except OSError as e:
+        print("OSError", e.reason)
+        return None
     return d
 
 
@@ -255,7 +264,7 @@ def get_podcast_activity(rss: fp.util.FeedParserDict) -> str:
     freq = get_frequency(rss)
 
     diff2freq = diff / freq
-    print(diff2freq)
+    # print(diff2freq)
     if diff2freq <= 3:
         return "active"
     else:
