@@ -39,3 +39,4 @@ List of podcasts is as follows:
 33. [PolicyViz](_posts/2021-02-23-policy_viz.md)
 34. [Learning Bayesian Statistics](_posts/2021-02-27-learn_bayes_stats.md)
 35. [Machine Learning - Software Engineering Daily](_posts/2021-02-22-software-daily-ml.md)
+36. [The Data Canteen](_posts/2021-03-10-the_data_canteen.md)
