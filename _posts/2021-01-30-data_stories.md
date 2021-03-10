@@ -2,7 +2,7 @@
 layout: post
 title: "Data Stories"
 categories: [Viz]
-image: assets/images/pods/data-stories_400x.png
+image: assets/images/pods/data-stories.webp
 description: " A podcast on data visualization with Enrico Bertini and Moritz Stefaner"
 podurl: https://datastori.es
 rss: https://datastori.es/feed/

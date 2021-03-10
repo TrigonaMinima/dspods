@@ -2,7 +2,7 @@
 layout: post
 title: "The Python Podcast.__init__"
 categories: [Python, Engineering]
-image: assets/images/pods/python_podcast.png
+image: assets/images/pods/python_podcast.webp
 description: "Every week a new episode provides useful and informative insights into the projects, platforms, and practices that engineers, business leaders, and data scientists need to know about to learn and grow in their career."
 podurl: https://www.pythonpodcast.com/
 rss: https://www.pythonpodcast.com/feed/mp3/

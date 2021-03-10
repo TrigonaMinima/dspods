@@ -2,7 +2,7 @@
 layout: post
 title: "Data Skeptic"
 categories: [Explainer, Research]
-image: assets/images/pods/DS.jpeg
+image: assets/images/pods/ds.webp
 description: "Your trusted podcast, centered on data science, machine learning, and artificial intelligence."
 podurl: https://dataskeptic.com/
 rss: https://dataskeptic.libsyn.com/rss

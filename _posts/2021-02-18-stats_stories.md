@@ -2,7 +2,7 @@
 layout: post
 title: "Stats + Stories"
 categories: [Statistics]
-image: assets/images/pods/stats_stories.png
+image: assets/images/pods/stats_stories.webp
 description: "A podcast about the statistics behind the stories and the stories behind the statistics."
 podurl: https://statsandstories.net/episodes
 rss: https://feeds.soundcloud.com/users/soundcloud:users:483713610/sounds.rss

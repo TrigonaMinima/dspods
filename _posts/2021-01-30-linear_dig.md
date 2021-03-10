@@ -2,7 +2,7 @@
 layout: post
 title: "Linear Digression‪s‬"
 categories: [Explainer]
-image: assets/images/pods/lin_dig.jpeg
+image: assets/images/pods/lin_dig.webp
 description: "In each episode, your hosts explore machine learning and data science through interesting (and often very unusual) applications."
 podurl: http://lineardigressions.com/
 rss: http://lineardigressions.com/episodes?format=RSS

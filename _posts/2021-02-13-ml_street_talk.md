@@ -2,7 +2,7 @@
 layout: post
 title: "Machine Learning Street Tal‪k‬"
 categories: [Research]
-image: assets/images/pods/mlstreettalk.jpeg
+image: assets/images/pods/mlstreettalk.webp
 description: "Join in our discussion of the most exciting discussions around the latest and greatest in Machine Learning and Artificial Intelligence! This is quite a technical podcast where we interview authors of ML research papers and discuss topics such as AI Ethics and ML DevOps."
 podurl: https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ/about
 rss: https://anchor.fm/s/1e4a0eac/podcast/rss
