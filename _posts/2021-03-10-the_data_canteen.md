@@ -7,6 +7,7 @@ description: "The Data Canteen is a podcast for U.S. Military Veterans & Service
 podurl: https://vetsindatascience.com/thedatacanteen
 rss: https://feed.podbean.com/datacanteen/feed.xml
 pocketcasts: https://pca.st/9kl9veif
+spotify:
 apple_pod: https://podcasts.apple.com/us/podcast/the-data-canteen/id1551751086
 overcast: https://overcast.fm/itunes1551751086
 youtube: https://www.youtube.com/channel/UCaNx9aLFRy1h9P22hd8ZPyw

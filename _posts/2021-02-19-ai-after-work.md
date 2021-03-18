@@ -13,5 +13,5 @@ youtube: https://www.youtube.com/channel/UCTfZskxCP5YlhFJQcAhtR2A
 last_published: 2021-01-29 10:15:53
 frequency: 2
 duration: 18 mins to 34 mins
-status: active
+status: inactive
 ---

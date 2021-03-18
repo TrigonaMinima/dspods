@@ -40,3 +40,4 @@ List of podcasts is as follows:
 34. [Learning Bayesian Statistics](_posts/2021-02-27-learn_bayes_stats.md)
 35. [Machine Learning - Software Engineering Daily](_posts/2021-02-22-software-daily-ml.md)
 36. [The Data Canteen](_posts/2021-03-10-the_data_canteen.md)
+37. [Psyda Podcast with Minhaa‪j‬](_posts/2021-03-18-psyda.md)
