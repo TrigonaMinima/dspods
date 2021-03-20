@@ -41,3 +41,4 @@ List of podcasts is as follows:
 35. [Machine Learning - Software Engineering Daily](_posts/2021-02-22-software-daily-ml.md)
 36. [The Data Canteen](_posts/2021-03-10-the_data_canteen.md)
 37. [Psyda Podcast with Minhaa‪j‬](_posts/2021-03-18-psyda.md)
+38. [Data Science Imposters](_posts/2021-03-20-ds-imposters.md)
