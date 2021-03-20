@@ -149,7 +149,7 @@ def get_frequency(rss: fp.util.FeedParserDict) -> int or None:
     episodes = len(rss["entries"])
     freq = time_window / episodes
     freq = freq / (60 * 60 * 24)
-    return int(freq)
+    return int(round(freq))
 
 
 def time2human(t: datetime.timedelta) -> str:
