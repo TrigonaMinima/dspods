@@ -43,3 +43,4 @@ List of podcasts is as follows:
 37. [Psyda Podcast with Minhaa‪j‬](_posts/2021-03-18-psyda.md)
 38. [Data Science Imposters](_posts/2021-03-20-ds-imposters.md)
 39. [DataTalks.Club](_posts/2021-03-20-datatalks.club.md)
+40. [MLOps.community](_posts/2021-03-20-mlops.md)
