@@ -11,7 +11,7 @@ spotify: https://open.spotify.com/show/02e6PZeIOdpmBGT9THuzwR
 apple_pod: https://podcasts.apple.com/us/podcast/machine-learning-street-talk/id1510472996
 youtube: https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ
 last_published: 2021-03-16 22:35:09
-frequency: 6
+frequency: 7
 duration: 1 hour 13 mins to 2 hours 15 mins
 status: active
 ---

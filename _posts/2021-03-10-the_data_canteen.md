@@ -13,7 +13,7 @@ overcast: https://overcast.fm/itunes1551751086
 youtube: https://www.youtube.com/channel/UCaNx9aLFRy1h9P22hd8ZPyw
 stitcher: https://www.stitcher.com/podcast/the-data-canteen
 last_published: 2021-03-16 13:10:39
-frequency: 10
+frequency: 11
 duration: 28 mins to 1 hour 33 mins
 status: active
 ---

@@ -12,7 +12,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/data-stories/id502854960
 overcast: https://overcast.fm/itunes502854960/data-stories
 youtube:
 last_published: 2021-03-09 03:57:03
-frequency: 38
+frequency: 39
 duration:
 status: active
 ---

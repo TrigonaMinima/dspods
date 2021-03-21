@@ -12,7 +12,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/half-stack-data-science-podcast
 youtube:
 anchor: https://anchor.fm/half-stack-data-science
 last_published: 2021-03-02 09:58:00
-frequency: 84
+frequency: 85
 duration: 24 mins to 54 mins
 status: active
 ---
