@@ -22,8 +22,8 @@ layout: default
             {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
 
             <div class="alert alert-warning text-center" role="alert">
-                This podcast has been inactive since {{ page.last_published | date: "%a, %b %d, %Y"}} ({{ diffDays }}
-                days).
+                Marked inactive as release frequency is {{page.frequency}} days and most recent episode was
+                released {{diffDays}} days ago.
             </div>
             {% endif %}
         </div>
