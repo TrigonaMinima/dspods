@@ -265,7 +265,7 @@ def get_podcast_activity(rss: fp.util.FeedParserDict) -> str:
 
     diff2freq = diff / freq
     # print(diff2freq)
-    if diff2freq <= 3:
+    if diff2freq <= 5:
         return "active"
     else:
         return "inactive"
