@@ -48,3 +48,4 @@ List of podcasts is as follows:
 42. [The Artists of Data Science](_posts/2021-03-20-artists_of_data_science.md)
 43. [HumAIn Podcast](_posts/2021-03-29-humain.md)
 44. [The AI Podcas‪t](_posts/2021-03-29-the_ai_podcast.md)
+45. [Partially Derivative](_posts/2021-03-29-partially_derivative.md)
