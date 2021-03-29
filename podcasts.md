@@ -51,3 +51,4 @@ List of podcasts is as follows:
 45. [Partially Derivative](_posts/2021-03-29-partially_derivative.md)
 46. [Data Viz Today](_posts/2021-03-29-data_viz_today.md)
 47. [Data Engineering Podcast](_posts/2021-03-29-data_engineering_podcast.md)
+48. [The Present Beyond Measure Show](_posts/2021-03-29-present_beyond_measure.md)
