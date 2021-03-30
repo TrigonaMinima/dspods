@@ -12,7 +12,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/data-science-imposters-podcast/
 overcast:
 youtube:
 stitcher:
-last_published: 2021-03-09 15:21:42
+last_published: 2021-03-29 18:25:26
 frequency: 14
 duration: 33 mins to 56 mins
 status: active

@@ -12,8 +12,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/partially-derivative/id94204859
 overcast:
 youtube:
 stitcher: https://www.stitcher.com/show/partially-derivative
-last_published:
-frequency:
-duration:
-status:
+last_published: 2017-09-05 22:11:00
+frequency: 10
+duration: 24 mins to 51 mins
+status: inactive
 ---
