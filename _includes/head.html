@@ -30,12 +30,12 @@
     <meta name="google-site-verification" content="qbYVDDNjcMheF1obkl4U_0O_DtcHocqAxMITzvZ7tm4" />
 
 
-    <link rel="preconnect" href="https://ajax.googleapis.com">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     <link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://ajax.googleapis.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link href="{{ site.baseurl }}/assets/css/screen.min.css" rel="stylesheet">
 
@@ -43,7 +43,9 @@
     <!-- <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet"> -->
 
     <!-- defer loading of font and font awesome -->
-    <link rel="preconnect" href="https://use.fontawesome.com">
+    <!-- <link rel="preconnect" href="https://use.fontawesome.com"> -->
+    <link rel="preload" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
     <noscript id="deferred-styles">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
             integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
