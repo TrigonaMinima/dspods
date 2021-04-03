@@ -12,8 +12,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/becoming-a-data-scientist-podca
 overcast:
 youtube: https://www.youtube.com/channel/UCfxnrdBM1YRV9j2MB8aiy4Q
 stitcher:
-last_published:
-frequency:
-duration:
-status:
+last_published: 2019-05-30 03:00:36
+frequency: 60
+duration: 30 mins to 1 hour 3 mins
+status: inactive
 ---

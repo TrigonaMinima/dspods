@@ -12,8 +12,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/the-r-podcast/id1140581792
 overcast:
 youtube: https://youtube.com/TheRPodcast
 stitcher:
-last_published:
-frequency:
-duration:
-status:
+last_published: 2020-03-03 17:00:00
+frequency: 45
+duration: 41 mins to 1 hour 12 mins
+status: inactive
 ---
