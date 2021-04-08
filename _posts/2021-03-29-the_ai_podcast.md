@@ -12,8 +12,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/the-ai-podcast/id1186480811
 overcast: https://overcast.fm/itunes1186480811/the-ai-podcast
 youtube:
 stitcher: http://www.stitcher.com/s?fid=130629&refid=stpr
-last_published: 2021-03-31 00:00:00
+last_published: 2021-04-07 00:00:00
 frequency: 11
-duration: 20 mins to 32 mins
+duration: 20 mins to 33 mins
 status: active
 ---
