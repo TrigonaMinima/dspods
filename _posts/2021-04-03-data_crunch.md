@@ -12,7 +12,7 @@ apple_pod:
 overcast:
 youtube:
 stitcher: http://www.stitcher.com/s?fid=122395&refid=stpr
-last_published: 2021-04-16 00:00:00
+last_published: 2021-05-04 12:00:00
 frequency: 23
 duration: 16 mins to 27 mins
 status: active
