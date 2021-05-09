@@ -2,7 +2,7 @@
 layout: post
 title: "Adversarial Learning"
 categories: [Conversation]
-image: assets/images/pods/adv_learn.jpeg
+image: assets/images/pods/adv_learn.webp
 description: "This is our podcast about data, data science, science, Shingy, and whatever else we feel like talking about. Please listen to it."
 podurl: https://adversariallearning.com/
 rss: https://anchor.fm/s/4738e388/podcast/rss
