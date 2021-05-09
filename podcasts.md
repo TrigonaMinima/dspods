@@ -55,3 +55,4 @@ List of podcasts is as follows:
 49. [The R-Podcast](_posts/2021-04-02-the_r_podcast.md)
 50. [Data Crunch](_posts/2021-04-03-data_crunch.md)
 51. [Becoming a Data Scientist](_posts/2021-04-03-becoming_a_data_scientist.md)
+52. [Raw Data](_posts/2021-05-10-raw_data.md)

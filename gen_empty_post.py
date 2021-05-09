@@ -18,6 +18,7 @@ apple_pod:
 overcast:
 youtube:
 stitcher:
+soundcloud:
 last_published:
 frequency:
 duration:
