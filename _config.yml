@@ -36,10 +36,16 @@ adsense: "disabled"
 lazyimages: "disabled"
 
 exclude:
-  - LICENSE.txt
+  - LICENSE
   - README.md
   - Gemfile
   - Gemfile.lock
-  - episodes.py
   - templates
   - podcasts.md
+  - py
+  - __init__.py
+  - episodes.py
+  - gen_empty_post.py
+  - new_podart.py
+  - podart.py
+  - requirements.txt
