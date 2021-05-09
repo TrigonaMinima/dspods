@@ -24,7 +24,9 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Update podcast details
-        run: python episodes.py
+        run: |
+          python episodes.py
+          python podart.py
 
       - name: Push updates to the repository
         run: |
