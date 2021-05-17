@@ -12,7 +12,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/ai-game-changers/id1512574291
 overcast: https://overcast.fm/itunes1512574291
 youtube:
 stitcher:
-last_published: 2020-12-17 11:00:00
+last_published: time.struct_time(tm_year=2020, tm_mon=12, tm_mday=17, tm_hour=11, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=352, tm_isdst=0)
 frequency: 11
 duration: 41 mins to 59 mins
 status: inactive

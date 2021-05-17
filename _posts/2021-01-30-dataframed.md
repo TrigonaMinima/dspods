@@ -11,7 +11,7 @@ spotify: https://open.spotify.com/show/02yJXEJAJiQ0Vm2AO9Xj6X
 apple_pod: https://podcasts.apple.com/au/podcast/dataframed/id1336150688
 overcast: https://overcast.fm/itunes1336150688/dataframed
 youtube:
-last_published: 2018-03-26 02:59:29
+last_published: time.struct_time(tm_year=2018, tm_mon=3, tm_mday=26, tm_hour=2, tm_min=59, tm_sec=29, tm_wday=0, tm_yday=85, tm_isdst=0)
 frequency: 4
 duration: 40 mins to 1 hour 9 mins
 status: inactive

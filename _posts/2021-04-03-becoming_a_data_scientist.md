@@ -12,7 +12,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/becoming-a-data-scientist-podca
 overcast:
 youtube: https://www.youtube.com/channel/UCfxnrdBM1YRV9j2MB8aiy4Q
 stitcher:
-last_published: 2019-05-30 03:00:36
+last_published: time.struct_time(tm_year=2019, tm_mon=5, tm_mday=30, tm_hour=3, tm_min=0, tm_sec=36, tm_wday=3, tm_yday=150, tm_isdst=0)
 frequency: 60
 duration: 30 mins to 1 hour 3 mins
 status: inactive

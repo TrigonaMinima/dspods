@@ -13,7 +13,7 @@ overcast:
 youtube:
 stitcher: http://www.stitcher.com/s?fid=186158
 soundcloud:
-last_published: 2020-01-30 13:15:59
+last_published: time.struct_time(tm_year=2020, tm_mon=1, tm_mday=30, tm_hour=13, tm_min=15, tm_sec=59, tm_wday=3, tm_yday=30, tm_isdst=0)
 frequency: 27
 duration: 12 mins to 29 mins
 status: inactive

@@ -10,7 +10,7 @@ pocketcasts: https://pca.st/podcast/32673a70-0c72-0139-41ba-0acc26574db2
 spotify: https://open.spotify.com/show/4dWmsQFcIlMj1zz7jueNC7
 apple_pod: https://podcasts.apple.com/se/podcast/aiaw-podcast/id1535477969
 youtube: https://www.youtube.com/channel/UCTfZskxCP5YlhFJQcAhtR2A
-last_published: 2021-05-07 08:00:00
+last_published: time.struct_time(tm_year=2021, tm_mon=5, tm_mday=7, tm_hour=8, tm_min=0, tm_sec=0, tm_wday=4, tm_yday=127, tm_isdst=0)
 frequency: 6
 duration: 1 hour 52 mins to 2 hours 22 mins
 status: active
