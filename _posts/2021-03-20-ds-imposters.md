@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Science Imposters"
-categories: [Conversations, Industry]
+categories: [Conversation, Industry]
 image: assets/images/pods/ds_imposters.webp
 description: "Explore data science, analytics, big data, machine learning as we discuss these topics. Join us on our journey."
 podurl: https://datascienceimposters.com

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DataTalks.Club"
-categories: [Explainer, Conversations]
+categories: [Explainer, Conversation]
 image: assets/images/pods/datatalks.club.webp
 description: "DataTalks.Club - the place to talk about data!"
 podurl: https://anchor.fm/datatalksclub
