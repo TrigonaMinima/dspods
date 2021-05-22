@@ -1,5 +1,4 @@
 import time
-import urllib
 import datetime
 import statistics as stats
 

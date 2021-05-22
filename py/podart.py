@@ -5,39 +5,6 @@ from typing import Optional
 from bs4 import BeautifulSoup
 
 
-def fetch_url(url: str) -> requests.models.Response:
-    """
-    Fetch the url using requests.
-
-    Parameters
-    ----------
-    url : str
-
-    Returns
-    -------
-    requests.models.Response
-        Requests Response object for the `url`.
-    """
-    res = requests.get(url)
-    return res
-
-
-def download_img(img_url: str) -> requests.models.Response:
-    """
-    Download the image data from `img_url`.
-
-    Parameters
-    ----------
-    img_url : str
-
-    Returns
-    -------
-    requests.models.Response
-        Requests Response object for the `url`.
-    """
-    return fetch_url(img_url)
-
-
 def get_art_url(apple_pod_url: str) -> Optional[str]:
     """
     Fetch the webp image link from the Apple podcast page.
@@ -50,7 +17,7 @@ def get_art_url(apple_pod_url: str) -> Optional[str]:
     -------
     str or None
     """
-    html = fetch_url(apple_pod_url)
+    html = requests.get(apple_pod_url)
 
     art_url = None
     if html.status_code != 404:
@@ -92,16 +59,16 @@ def tinypng_compress(img_url: str) -> Optional[bytes]:
         "TE": "Trailers",
     }
 
-    # fetch the input image
-    in_img = download_img(img_url)
+    # download the input image
+    in_img = requests.get(img_url)
     data = in_img.content
 
     # post request to compress the img
     res = requests.post("https://tinypng.com/web/shrink", headers=headers, data=data)
 
-    # get the compressed img
+    # download the compressed img
     out_img_url = res.json()["output"]["url"]
-    out_img = fetch_url(out_img_url)
+    out_img = requests.get(out_img_url)
     return out_img.content
 
 
