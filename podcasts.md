@@ -62,3 +62,4 @@ List of podcasts is as follows:
 56. [Data Science In Production](_posts/2021-05-22-data_science_in_production.md)
 57. [Cyentia Podcast](_posts/2021-05-22-cyentia.md)
 58. [Making Data Simple](_posts/2021-05-22-making_data_simple.md)
+59. [The Digital Analytics Power Hour](_posts/2021-05-22-digital_analytics_power_hour.md)
