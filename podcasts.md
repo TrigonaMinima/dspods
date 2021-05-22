@@ -59,3 +59,4 @@ List of podcasts is as follows:
 53. [Data Science Ethics Podcast](_posts/2021-05-10-data_science_ethics.md)
 54. [Datacast](_posts/2021-05-22-datacast.md)
 55. [Data Futurology](_posts/2021-05-22-data_futurology.md)
+56. [Data Science In Production](_posts/2021-05-22-data_science_in_production.md)
