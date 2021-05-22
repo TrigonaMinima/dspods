@@ -12,7 +12,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/the-r-podcast/id1140581792
 overcast:
 youtube: https://youtube.com/TheRPodcast
 stitcher:
-last_published: time.struct_time(tm_year=2020, tm_mon=3, tm_mday=3, tm_hour=17, tm_min=0, tm_sec=0, tm_wday=1, tm_yday=63, tm_isdst=0)
+last_published: 2020-03-03 17:00:00
 frequency: 45
 duration: 41 mins to 1 hour 12 mins
 status: inactive

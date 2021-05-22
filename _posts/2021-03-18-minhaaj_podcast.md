@@ -13,7 +13,7 @@ overcast:
 youtube: https://www.youtube.com/watch?v=VCMSym5Q_EE&list=PLtluUSnvgbdF7MlqjX5-IVMCkFGTrEWlz
 stitcher:
 previously: ["Psyda Podcast with Minhaa‪j‬"]
-last_published: time.struct_time(tm_year=2021, tm_mon=5, tm_mday=15, tm_hour=20, tm_min=43, tm_sec=27, tm_wday=5, tm_yday=135, tm_isdst=0)
+last_published: 2021-05-15 20:43:27
 frequency: 5
 duration: 1 hour 29 mins to 2 hours 16 mins
 status: active

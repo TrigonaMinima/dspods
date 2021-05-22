@@ -12,7 +12,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/the-data-canteen/id1551751086
 overcast: https://overcast.fm/itunes1551751086
 youtube: https://www.youtube.com/channel/UCaNx9aLFRy1h9P22hd8ZPyw
 stitcher: https://www.stitcher.com/podcast/the-data-canteen
-last_published: time.struct_time(tm_year=2021, tm_mon=5, tm_mday=6, tm_hour=0, tm_min=33, tm_sec=58, tm_wday=3, tm_yday=126, tm_isdst=0)
+last_published: 2021-05-06 00:33:58
 frequency: 14
 duration: 34 mins to 1 hour 33 mins
 status: active

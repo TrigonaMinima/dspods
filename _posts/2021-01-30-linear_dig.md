@@ -11,7 +11,7 @@ spotify: https://open.spotify.com/show/1JdkD0ZoZ52KjwdR0b1WoT
 apple_pod: https://podcasts.apple.com/us/podcast/linear-digressions/id941219323
 overcast: https://overcast.fm/itunes941219323/linear-digressions
 youtube:
-last_published: time.struct_time(tm_year=2020, tm_mon=7, tm_mday=26, tm_hour=23, tm_min=32, tm_sec=22, tm_wday=6, tm_yday=208, tm_isdst=0)
+last_published: 2020-07-26 23:32:22
 frequency: 6
 duration:
 status: inactive
