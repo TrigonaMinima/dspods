@@ -57,3 +57,4 @@ List of podcasts is as follows:
 51. [Becoming a Data Scientist](_posts/2021-04-03-becoming_a_data_scientist.md)
 52. [Raw Data](_posts/2021-05-10-raw_data.md)
 53. [Data Science Ethics Podcast](_posts/2021-05-10-data_science_ethics.md)
+54. [Datacast](_posts/2021-05-22-datacast.md)
