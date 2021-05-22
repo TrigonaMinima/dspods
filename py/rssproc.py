@@ -57,7 +57,7 @@ def get_last_published(rss: fp.util.FeedParserDict) -> str:
     elif "updated_parsed" in rss["feed"]:
         dt = rss["feed"]["updated_parsed"]
 
-    if not dt:
+    if dt:
         dt = time.strftime("%Y-%m-%d %H:%M:%S", dt)
     return dt
 
