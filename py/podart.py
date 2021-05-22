@@ -1,6 +1,7 @@
 import requests
 
 from pathlib import Path
+from typing import Optional
 from bs4 import BeautifulSoup
 
 
@@ -37,7 +38,7 @@ def download_img(img_url: str) -> requests.models.Response:
     return fetch_url(img_url)
 
 
-def get_art_url(apple_pod_url: str) -> str:
+def get_art_url(apple_pod_url: str) -> Optional[str]:
     """
     Fetch the webp image link from the Apple podcast page.
 
@@ -47,21 +48,23 @@ def get_art_url(apple_pod_url: str) -> str:
 
     Returns
     -------
-    str
+    str or None
     """
     html = fetch_url(apple_pod_url)
-    soup = BeautifulSoup(html.text, "html.parser")
 
-    art_url = (
-        soup.find("source", class_="we-artwork__source")
-        .attrs["srcset"]
-        .split(",")[1]
-        .split()[0]
-    )
+    art_url = None
+    if html.status_code != 404:
+        soup = BeautifulSoup(html.text, "html.parser")
+        art_url = (
+            soup.find("source", class_="we-artwork__source")
+            .attrs["srcset"]
+            .split(",")[1]
+            .split()[0]
+        )
     return art_url
 
 
-def tinypng_compress(img_url: str) -> bytes:
+def tinypng_compress(img_url: str) -> Optional[bytes]:
     """
     Fetch the original webp image and compress it using tinypng.
 
@@ -71,9 +74,12 @@ def tinypng_compress(img_url: str) -> bytes:
 
     Returns
     -------
-    bytes
+    bytes or None
         Binary data of the compressed image.
     """
+    if img_url is None or not img_url:
+        return None
+
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0",
         "Accept": "*/*",

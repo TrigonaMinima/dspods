@@ -16,7 +16,11 @@ if __name__ == "__main__":
         podart_path = Path(pod_dets["image"])
         podart_url = get_art_url(pod_dets["apple_pod"])
 
-        podart = tinypng_compress(podart_url)
+        if podart_url is not None:
+            podart = tinypng_compress(podart_url)
 
-        save_img(podart, podart_path)
-        print("Saved the compressed image at:", podart_path)
+            if podart is not None:
+                save_img(podart, podart_path)
+                print("Saved the compressed image at:", podart_path)
+        else:
+            print("Skipped fetching podart")
