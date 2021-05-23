@@ -13,8 +13,8 @@ overcast:
 youtube:
 stitcher: https://www.stitcher.com/podcast/data-science-in-production
 soundcloud:
-last_published:
-frequency:
-duration:
-status:
+last_published: 2019-07-09 11:58:15
+frequency: 35
+duration: 22 mins to 53 mins
+status: inactive
 ---

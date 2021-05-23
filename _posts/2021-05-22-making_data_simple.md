@@ -13,8 +13,8 @@ overcast: https://overcast.fm/itunes605818735
 youtube:
 stitcher:
 soundcloud: https://soundcloud.com/mds_podcast
-last_published:
-frequency:
-duration:
-status:
+last_published: 2021-05-19 10:00:00
+frequency: 7
+duration: 29 mins to 46 mins
+status: active
 ---
