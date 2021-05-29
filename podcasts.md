@@ -63,3 +63,4 @@ List of podcasts is as follows:
 57. [Cyentia Podcast](_posts/2021-05-22-cyentia.md)
 58. [Making Data Simple](_posts/2021-05-22-making_data_simple.md)
 59. [The Digital Analytics Power Hour](_posts/2021-05-22-digital_analytics_power_hour.md)
+60. [The Ravit Show](_posts/2021-05-29-ravit_show.md)
