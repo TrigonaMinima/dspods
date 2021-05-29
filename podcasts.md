@@ -68,3 +68,4 @@ List of podcasts is as follows:
 62. [More or Less: Behind the Stats](_posts/2021-05-29-more_or_less_behind_the_stats.md)
 63. [The Human-Centered AI Podcast](_posts/2021-05-29-human_centered_ai_podcast.md)
 64. [The Radical AI Podcast](_posts/2021-05-29-radical_ai.md)
+65. [Ken's Nearest Neighbors](_posts/2021-05-29-kens_nearest_neighbors.md)
