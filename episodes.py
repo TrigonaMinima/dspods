@@ -1,3 +1,4 @@
+import sys
 import feedparser as fp
 
 from pathlib import Path
@@ -51,11 +52,16 @@ def update_pod_details(rss: fp.util.FeedParserDict, pod_dets: dict) -> dict:
 
 
 if __name__ == "__main__":
+    arg = sys.argv[1] if len(sys.argv) > 1 else "all"
+
     posts_dir = Path("_posts")
+    if arg == "all":
+        files_iter = posts_dir.iterdir()
+    else:
+        files_iter = posts_dir.glob(f"*{arg}*")
 
     # dfs = []
-
-    for pod_f in posts_dir.iterdir():
+    for pod_f in files_iter:
         print(pod_f)
 
         pod_dets = yaml2dict(pod_f)

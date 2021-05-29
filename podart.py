@@ -1,3 +1,4 @@
+import sys
 from pathlib import Path
 
 from py.yamlproc import yaml2dict
@@ -5,9 +6,15 @@ from py.podart import get_art_url, tinypng_compress, save_img
 
 
 if __name__ == "__main__":
-    posts_dir = Path("_posts")
+    arg = sys.argv[1] if len(sys.argv) > 1 else "all"
 
-    for pod_f in posts_dir.iterdir():
+    posts_dir = Path("_posts")
+    if arg == "all":
+        files_iter = posts_dir.iterdir()
+    else:
+        files_iter = posts_dir.glob(f"*{arg}*")
+
+    for pod_f in files_iter:
         print(pod_f)
 
         pod_dets = yaml2dict(pod_f)
