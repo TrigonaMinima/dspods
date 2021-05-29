@@ -5,6 +5,7 @@ categories: [Conversation, Industry, Engineering]
 image: assets/images/pods/ml_software_eng_daily.webp
 description: "The incredible advances in machine learning research in recent years often take time to propagate out into usage in the field. One reason for this is that such “state-of-the-art” results for machine learning performance rely on the use of handwritten, idiosyncratic optimizations for specific hardware models or operating contexts. When developers are building ML-powered systems"
 podurl: http://softwareengineeringdaily.com/category/machine-learning
+lang: English
 rss: http://softwareengineeringdaily.com/category/machine-learning/feed/
 pocketcasts: https://pca.st/podcast/56d86b40-0e0d-0135-ecbb-4114446340cb
 spotify:

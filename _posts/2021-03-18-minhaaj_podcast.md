@@ -5,6 +5,7 @@ categories: [Psychology]
 image: assets/images/pods/psyda.webp
 description: "Minhaaj's Podcast are candid conversations with thought leaders in the field of AI, Data Science and Psychology. The host Minhaaj Rehman is CEO of Psyda Solutions and a renowned social scientist. He is the author of the book 'Psychometrics in Recruitment' and two other books. He has worked with bluechip companies for over 20 years in different capacities."
 podurl: https://psyda.co/podcast
+lang: English
 rss: https://anchor.fm/s/4ab1e5dc/podcast/rss
 pocketcasts: https://pca.st/podcast/fdec3d50-4706-0139-3368-0acc26574db2
 spotify: https://open.spotify.com/show/6SrZiXyqfEML7pDffEYzEK

@@ -5,6 +5,7 @@ categories: [Statistics]
 image: assets/images/pods/stats_stories.webp
 description: "A podcast about the statistics behind the stories and the stories behind the statistics."
 podurl: https://statsandstories.net/episodes
+lang: English
 rss: https://feeds.soundcloud.com/users/soundcloud:users:483713610/sounds.rss
 pocketcasts: https://pca.st/podcast/4ab32cd0-d247-0131-31fd-723c91aeae46
 spotify: https://open.spotify.com/show/0DuGJWWOUk7M3OEZBGG4Kk

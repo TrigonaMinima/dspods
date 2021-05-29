@@ -5,6 +5,7 @@ categories: [Explainer]
 image: assets/images/pods/lin_dig.webp
 description: "In each episode, your hosts explore machine learning and data science through interesting (and often very unusual) applications."
 podurl: http://lineardigressions.com/
+lang: English
 rss: http://lineardigressions.com/episodes?format=RSS
 pocketcasts: https://pca.st/podcast/0dc8fcb0-590e-0132-d476-5f4c86fd3263
 spotify: https://open.spotify.com/show/1JdkD0ZoZ52KjwdR0b1WoT

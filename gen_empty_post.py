@@ -12,6 +12,7 @@ categories: []
 image: assets/images/pods/{pod_name}.webp
 description: ""
 podurl:
+lang:
 rss:
 pocketcasts:
 spotify:

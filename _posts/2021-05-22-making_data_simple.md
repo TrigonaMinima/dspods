@@ -4,6 +4,7 @@ title: "Making Data Simple"
 categories: [Industry]
 image: assets/images/pods/making_data_simple.webp
 description: "Hosted by Al Martin, IBM VP of Data and A.I. Development, Making Data Simple provides the latest thinking on big data, A.I., and the implications for the enterprise from a range of experts."
+lang: English
 podurl: https://www.ibm.com/blogs/journey-to-ai/category/podcast/
 rss: http://feeds.feedburner.com/IBM-big-data-hub-podcasts
 pocketcasts: https://pca.st/m74Xge

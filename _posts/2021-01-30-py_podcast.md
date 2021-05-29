@@ -5,6 +5,7 @@ categories: [Python, Engineering]
 image: assets/images/pods/python_podcast.webp
 description: "Every week a new episode provides useful and informative insights into the projects, platforms, and practices that engineers, business leaders, and data scientists need to know about to learn and grow in their career."
 podurl: https://www.pythonpodcast.com/
+lang: English
 rss: https://www.pythonpodcast.com/feed/mp3/
 pocketcasts: https://pca.st/podcast/f9f7b8c0-c366-0132-3c5e-0b39892d38e0
 spotify:
