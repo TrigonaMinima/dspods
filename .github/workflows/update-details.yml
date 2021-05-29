@@ -24,9 +24,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Update podcast details
-        run: |
-          python episodes.py
-          python podart.py
+        run: python episodes.py
 
       - name: Push updates to the repository
         run: |
@@ -34,4 +32,15 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git commit -m "Update: Auto podcast updates for `date`"
+          git push
+
+      - name: Update podarts
+        run: python podart.py
+
+      - name: Push updates to the repository
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update: Auto podart updates for `date`"
           git push
