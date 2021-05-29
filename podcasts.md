@@ -66,3 +66,4 @@ List of podcasts is as follows:
 60. [The Ravit Show](_posts/2021-05-29-ravit_show.md)
 61. [Adventures in Machine Learning](_posts/2021-05-29-adventures_in_machine_learning.md)
 62. [More or Less: Behind the Stats](_posts/2021-05-29-more_or_less_behind_the_stats.md)
+63. [The Human-Centered AI Podcast](_posts/2021-05-29-human_centered_ai_podcast.md)
