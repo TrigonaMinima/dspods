@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/channel/UCTfZskxCP5YlhFJQcAhtR2A
 last_published: 2021-06-04 06:00:00
 frequency: 7
 duration: 1 hour 53 mins to 2 hours 22 mins
-status: active
+status: inactive
 ---
