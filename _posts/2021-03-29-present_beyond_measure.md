@@ -13,8 +13,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/present-beyond-measure-show-dat
 overcast:
 youtube:
 stitcher: http://stitcher.com/s?fid=71393&refid=stpr
-last_published: 2021-07-08 08:00:00
+last_published: 2021-07-22 12:00:00
 frequency: 32
-duration: 36 mins to 1 hour 6 mins
+duration: 35 mins to 1 hour 6 mins
 status: active
 ---
