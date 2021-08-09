@@ -17,5 +17,5 @@ previously: ["Psyda Podcast with Minhaa‪j‬"]
 last_published: 2021-07-09 20:13:59
 frequency: 6
 duration: 1 hour 31 mins to 2 hours 15 mins
-status: active
+status: inactive
 ---
