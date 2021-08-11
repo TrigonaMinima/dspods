@@ -13,7 +13,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/learning-bayesian-statistics/id
 overcast: https://overcast.fm/itunes1483485062
 youtube: https://www.youtube.com/channel/UCAwVseuhVrpJFfik_cMHrhQ
 anchor:
-last_published: 2021-07-22 06:00:00
+last_published: 2021-08-10 06:00:00
 frequency: 14
 duration: 41 mins to 1 hour 11 mins
 status: active
