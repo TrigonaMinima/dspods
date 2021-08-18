@@ -16,6 +16,6 @@ stitcher:
 soundcloud:
 last_published: 2021-08-13 10:00:00
 frequency: 6
-duration: 32 mins to 58 mins
+duration: 32 mins to 59 mins
 status: active
 ---
