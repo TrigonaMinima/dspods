@@ -13,7 +13,7 @@ apple_pod: https://podcasts.apple.com/ca/podcast/the-artists-of-data-science/id1
 overcast: https://overcast.fm/itunes1506968775/the-artists-of-data-science
 youtube:
 stitcher:
-last_published: 2021-08-19 04:00:00
+last_published: 2021-08-20 04:00:00
 frequency: 3
 duration: 49 mins to 1 hour 24 mins
 status: active
