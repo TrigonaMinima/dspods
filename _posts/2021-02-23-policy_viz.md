@@ -16,5 +16,5 @@ anchor:
 last_published: 2021-07-29 13:19:22
 frequency: 10
 duration:
-status: active
+status: inactive
 ---
