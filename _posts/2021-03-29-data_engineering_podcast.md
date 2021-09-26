@@ -13,7 +13,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193
 overcast: https://overcast.fm/itunes1193040557
 youtube:
 stitcher: https://www.stitcher.com/s?fid=181455&refid=stpr
-last_published: 2021-09-19 21:13:03
+last_published: 2021-09-25 00:55:55
 frequency: 8
 duration: 36 mins to 1 hour 3 mins
 status: active
