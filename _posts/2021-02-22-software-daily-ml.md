@@ -14,6 +14,6 @@ overcast: https://overcast.fm/itunes1230807136/machine-learning-software-enginee
 youtube:
 last_published: 2021-09-22 20:10:24
 frequency: 15
-duration: 46 mins to 1 hour 1 mins
+duration: 46 mins to 1 hour
 status: active
 ---
