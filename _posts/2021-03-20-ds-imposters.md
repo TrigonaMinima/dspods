@@ -16,5 +16,5 @@ stitcher:
 last_published: 2021-07-26 01:37:12
 frequency: 15
 duration: 33 mins to 56 mins
-status: active
+status: inactive
 ---
