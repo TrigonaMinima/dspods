@@ -15,6 +15,6 @@ youtube:
 stitcher: https://www.stitcher.com/s?fid=181455&refid=stpr
 last_published: 2021-10-23 01:22:24
 frequency: 8
-duration: 36 mins to 1 hour 4 mins
+duration: 37 mins to 1 hour 4 mins
 status: active
 ---
