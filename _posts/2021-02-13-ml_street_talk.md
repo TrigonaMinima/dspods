@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ
 last_published: 2021-09-19 01:29:09
 frequency: 8
 duration: 1 hour 15 mins to 2 hours 22 mins
-status: active
+status: inactive
 ---
