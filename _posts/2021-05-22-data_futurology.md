@@ -14,7 +14,7 @@ overcast: https://overcast.fm/itunes1385051346/data-futurology-data-science-anal
 youtube: https://www.youtube.com/channel/UCyy01lUvHdq4UeDFJQ9UaQg
 stitcher: https://www.stitcher.com/podcast/anchor-podcasts/data-futurology
 soundcloud: https://www.stitcher.com/podcast/anchor-podcasts/data-futurology
-last_published: 2021-12-07 22:41:10
+last_published: 2021-12-15 03:57:51
 frequency: 7
 duration: 34 mins to 1 hour 11 mins
 status: active
