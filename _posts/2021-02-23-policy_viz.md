@@ -13,8 +13,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/the-policyviz-podcast/id9829660
 overcast: https://overcast.fm/itunes982966091/the-policyviz-podcast
 youtube:
 anchor:
-last_published: 2021-12-06 22:12:05
-frequency: 18
+last_published: 2022-01-04 14:05:35
+frequency: 20
 duration:
 status: active
 ---
