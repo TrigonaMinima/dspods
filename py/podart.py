@@ -17,17 +17,17 @@ def get_art_url(apple_pod_url: str) -> Optional[str]:
     -------
     str or None
     """
+    if not apple_pod_url or apple_pod_url is None:
+        return None
+
     html = requests.get(apple_pod_url)
 
     art_url = None
     if html.status_code != 404:
         soup = BeautifulSoup(html.text, "html.parser")
-        art_url = (
-            soup.find("source", class_="we-artwork__source")
-            .attrs["srcset"]
-            .split(",")[1]
-            .split()[0]
-        )
+        soup = soup.find("source", class_="we-artwork__source")
+        if soup is not None:
+            art_url = soup.attrs["srcset"].split(",")[1].split()[0]
     return art_url
 
 
