@@ -116,6 +116,12 @@ layout: default
                 <span> {{ page.duration }}</span>
                 {% endif %}
             </div>
+            <div class="text-muted">
+                {% if page.lang %}
+                <i class="fa-thin fa-language fa-lg"></i>
+                <span> {{ page.lang }}</span>
+                {% endif %}
+            </div>
             <br>
             <p>{{ page.description }}</p>
 
