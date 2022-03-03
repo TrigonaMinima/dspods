@@ -18,3 +18,14 @@ function filterUsingCategory(selectedCategory) {
       : 'none';
   {% endfor %}
 }
+
+
+function filterUsingLanguage(selectedLanguage) {
+  var all_cards = document.getElementsByClassName("podcast-card");
+  Array.from(all_cards).forEach((el) => {
+    el.style.display =
+      (selectedLanguage == 'All' || el.classList.contains(selectedLanguage))
+        ? 'flex'
+        : 'none';
+  })
+}

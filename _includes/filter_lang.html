@@ -1,0 +1,36 @@
+<!-- https://stackoverflow.com/a/68658001/2650427 -->
+{% assign lang_list = '' %}
+{% assign posts = site.posts | sort: "last_published" | reverse %}
+{% for post in posts %}
+{% assign lang = post.lang %}
+{% assign lang_list = lang_list | append: ',' | append: lang %}
+{% endfor %}
+
+{% assign lang_list = lang_list | remove_first: ',' | split: ',' | uniq %}
+
+
+<!-- radio button based filter -->
+<div class="collapse container-fluid col" id="langFilter">
+    <fieldset>
+        <div class="d-inline-flex pe-2 col-auto">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="showall" checked
+                onchange="filterUsingLanguage('All')">
+            <label class=" form-check-label" for="showall">
+                All Langs ({{ site.posts.size }})
+            </label>
+        </div>
+
+        {% for lang in lang_list %}
+        <div class="d-inline-flex pe-2 col-auto">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="{{ lang }}"
+                onchange="filterUsingLanguage(this.id)">
+            <label class="form-check-label" for="{{ lang }}">
+                {{ lang }}
+            </label>
+        </div>
+        {% endfor %}
+    </fieldset>
+    <br>
+    <!-- <br> -->
+</div>
+<script src="{{ site.baseurl }}/assets/js/filtering.js" async></script>

@@ -16,10 +16,16 @@ title: Home
         <div class="row">
             <div class="col px-1">
                 <!-- button to collapse the filter -->
-                <button class="btn btn-secondry" type="button" data-toggle="collapse" data-target="#collapseExample"
-                    aria-expanded="false" aria-controls="collapseExample">
+                <button class="btn btn-secondry" type="button" data-toggle="collapse" data-target="#categoryFilter"
+                    aria-expanded="false" aria-controls="categoryFilter">
                     <i class="fas fa-align-left"></i>
                     <span>Categories</span>
+                </button>
+                <!-- button to collapse the filter -->
+                <button class="btn btn-secondry" type="button" data-toggle="collapse" data-target="#langFilter"
+                    aria-expanded="false" aria-controls="langFilter">
+                    <i class="fa-thin fa-language fa-lg"></i>
+                    <span>Language</span>
                 </button>
             </div>
             <div class="col px-1 d-flex justify-content-end">
@@ -27,7 +33,10 @@ title: Home
             </div>
         </div>
         <div class="row">
-            {% include filter.html %}
+            {% include filter_category.html %}
+        </div>
+        <div class="row">
+            {% include filter_lang.html %}
         </div>
     </div>
 
@@ -35,8 +44,11 @@ title: Home
         <div class="row">
             {% assign id = 0 %}
             {% assign posts = site.posts | sort: "last_published" | reverse %}
+
             {% for post in posts %}
             {% assign id = id | plus:1 %}
+            {% assign lang = post.lang %}
+            {% assign cats = post.categories | join: " " %}
 
             {% include podcast_card.html %}
 
