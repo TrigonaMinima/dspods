@@ -14,6 +14,6 @@ overcast: https://overcast.fm/itunes981834425/the-python-podcast-init
 youtube:
 last_published: 2022-04-25 19:20:04
 frequency: 7
-duration: 38 mins to 59 mins
+duration: 40 mins to 59 mins
 status: active
 ---
