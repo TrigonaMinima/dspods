@@ -13,8 +13,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/data-viz-today/id1352837603
 overcast:
 youtube:
 stitcher: https://www.stitcher.com/show/data-viz-today
-last_published: 2022-04-26 14:41:28
+last_published: 2022-05-24 10:00:00
 frequency: 19
-duration: 2 mins to 37 mins
+duration: 3 mins to 37 mins
 status: active
 ---
