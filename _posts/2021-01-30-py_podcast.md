@@ -12,7 +12,7 @@ spotify:
 apple_pod: https://itunes.apple.com/us/podcast/podcast.-init/id981834425
 overcast: https://overcast.fm/itunes981834425/the-python-podcast-init
 youtube:
-last_published: 2022-06-27 01:43:41
+last_published: 2022-07-10 23:02:07
 frequency: 7
 duration: 40 mins to 58 mins
 status: active
