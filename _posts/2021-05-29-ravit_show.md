@@ -14,7 +14,7 @@ overcast:
 youtube: https://www.youtube.com/channel/UC4yopSSlBfw2WAykLPTYH-w
 stitcher:
 soundcloud:
-last_published: 2022-08-01 18:38:41
+last_published: 2022-08-03 17:46:08
 frequency: 11
 duration: 49 mins to 1 hour 10 mins
 status: active
