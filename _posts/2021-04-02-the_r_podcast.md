@@ -16,5 +16,5 @@ stitcher:
 last_published: 2022-02-18 21:00:00
 frequency: 63
 duration: 36 mins to 1 hour 13 mins
-status: active
+status: inactive
 ---
