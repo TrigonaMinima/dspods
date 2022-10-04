@@ -15,5 +15,5 @@ anchor: https://anchor.fm/half-stack-data-science
 last_published: 2021-12-22 10:15:02
 frequency: 95
 duration: 26 mins to 54 mins
-status: active
+status: inactive
 ---
