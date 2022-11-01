@@ -15,6 +15,6 @@ youtube:
 stitcher:
 last_published: 2022-10-28 17:00:10
 frequency: 7
-duration: 45 mins to 1 hour 8 mins
+duration: 45 mins to 1 hour 7 mins
 status: active
 ---
