@@ -16,5 +16,5 @@ stitcher: https://www.stitcher.com/podcast/the-data-canteen
 last_published: 2022-08-17 03:24:22
 frequency: 31
 duration: 51 mins to 1 hour 34 mins
-status: active
+status: inactive
 ---
