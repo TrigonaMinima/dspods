@@ -12,8 +12,8 @@ spotify: https://open.spotify.com/show/0aIvhK1ANin1kSOKRhWG1M
 apple_pod: https://podcasts.apple.com/us/podcast/data-stories/id502854960
 overcast: https://overcast.fm/itunes502854960/data-stories
 youtube:
-last_published: 2022-11-21 18:07:15
-frequency: 95
+last_published: 2022-12-12 14:07:01
+frequency: 94
 duration:
 status: active
 ---
