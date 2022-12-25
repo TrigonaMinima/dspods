@@ -16,5 +16,5 @@ stitcher:
 last_published: 2022-12-04 05:00:00
 frequency: 4
 duration: 51 mins to 1 hour 29 mins
-status: active
+status: inactive
 ---
