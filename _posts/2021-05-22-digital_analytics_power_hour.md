@@ -14,7 +14,7 @@ overcast:
 youtube:
 stitcher: https://www.stitcher.com/show/the-digital-analytics-power-hour
 soundcloud:
-last_published: 2022-12-13 05:30:00
+last_published: 2022-12-27 05:30:00
 frequency: 13
 duration: 41 mins to 1 hour 6 mins
 status: active
