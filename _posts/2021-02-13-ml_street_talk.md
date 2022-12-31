@@ -11,8 +11,8 @@ pocketcasts: https://pca.st/podcast/7e69e3b0-6b18-0138-eda7-0acc26574db2
 spotify: https://open.spotify.com/show/02e6PZeIOdpmBGT9THuzwR
 apple_pod: https://podcasts.apple.com/us/podcast/machine-learning-street-talk/id1510472996
 youtube: https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ
-last_published: 2022-12-26 19:29:14
+last_published: 2022-12-30 12:18:50
 frequency: 10
-duration: 54 mins to 2 hours 17 mins
+duration: 55 mins to 2 hours 18 mins
 status: active
 ---
