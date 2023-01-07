@@ -13,7 +13,7 @@ apple_pod: https://podcasts.apple.com/us/podcast/id1541710331
 overcast:
 youtube:
 stitcher:
-last_published: 2022-12-16 18:00:08
+last_published: 2023-01-06 18:00:34
 frequency: 7
 duration: 45 mins to 1 hour 7 mins
 status: active
