@@ -15,5 +15,5 @@ youtube:
 last_published: 2022-12-12 02:27:08
 frequency: 7
 duration: 31 mins to 1 hour 3 mins
-status: active
+status: inactive
 ---
