@@ -13,6 +13,6 @@ apple_pod: https://podcasts.apple.com/us/podcast/machine-learning-street-talk/id
 youtube: https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ
 last_published: 2023-02-11 21:31:22
 frequency: 10
-duration: 51 mins to 2 hours 15 mins
+duration: 52 mins to 2 hours 16 mins
 status: active
 ---
