@@ -12,8 +12,8 @@ spotify: https://open.spotify.com/show/5lZRELEKj9P45KQ8XgvBPl
 apple_pod: https://itunes.apple.com/us/podcast/adversarial-learning/id1183961227
 overcast: "https://overcast.fm/itunes1183961227/adversarial-learning"
 youtube:
-last_published: 2020-08-06 13:50:13
-frequency: 55
+last_published: 2023-03-20 17:44:36
+frequency: 89
 duration: 48 mins to 1 hour 11 mins
-status: inactive
+status: active
 ---
