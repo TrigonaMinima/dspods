@@ -11,8 +11,8 @@ pocketcasts: https://pca.st/podcast/32673a70-0c72-0139-41ba-0acc26574db2
 spotify: https://open.spotify.com/show/4dWmsQFcIlMj1zz7jueNC7
 apple_pod: https://podcasts.apple.com/se/podcast/aiaw-podcast/id1535477969
 youtube: https://www.youtube.com/channel/UCTfZskxCP5YlhFJQcAhtR2A
-last_published: 2023-03-17 09:00:00
-frequency: 10
-duration: 2 hours 1 mins to 2 hours 33 mins
+last_published: 2023-03-24 12:00:00
+frequency: 9
+duration: 2 hours 2 mins to 2 hours 33 mins
 status: active
 ---
