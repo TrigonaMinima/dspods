@@ -13,8 +13,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/data-crunch/id1165189603
 overcast:
 youtube:
 stitcher: http://www.stitcher.com/s?fid=122395&refid=stpr
-last_published: 2022-03-24 18:00:00
-frequency: 25
-duration: 16 mins to 27 mins
-status: inactive
+last_published: 2023-04-03 13:00:00
+frequency: 29
+duration: 15 mins to 27 mins
+status: active
 ---
