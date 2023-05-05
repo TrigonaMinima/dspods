@@ -16,6 +16,6 @@ stitcher: https://www.stitcher.com/podcast/anchor-podcasts/data-futurology
 soundcloud: https://www.stitcher.com/podcast/anchor-podcasts/data-futurology
 last_published: 2023-04-19 01:34:41
 frequency: 7
-duration: 32 mins to 1 hour 8 mins
+duration: 31 mins to 1 hour 8 mins
 status: active
 ---
