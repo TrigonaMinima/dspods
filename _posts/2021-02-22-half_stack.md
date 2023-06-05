@@ -12,8 +12,8 @@ spotify: https://open.spotify.com/show/4MTKn0w2jy9bux1sit4xja
 apple_pod: https://podcasts.apple.com/us/podcast/half-stack-data-science-podcast/id1429751562
 youtube:
 anchor: https://anchor.fm/half-stack-data-science
-last_published: 2021-12-22 10:15:02
-frequency: 95
-duration: 26 mins to 54 mins
-status: inactive
+last_published: 2023-06-04 18:16:48
+frequency: 126
+duration: 21 mins to 53 mins
+status: active
 ---
