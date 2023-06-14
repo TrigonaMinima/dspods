@@ -13,7 +13,7 @@ apple_pod: https://itunes.apple.com/us/podcast/adversarial-learning/id1183961227
 overcast: "https://overcast.fm/itunes1183961227/adversarial-learning"
 youtube:
 last_published: 2023-03-20 17:44:36
-frequency: 89
+frequency: 93
 duration: 48 mins to 1 hour 11 mins
 status: active
 ---
