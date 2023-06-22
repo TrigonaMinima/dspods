@@ -14,8 +14,8 @@ overcast:
 youtube: https://www.youtube.com/watch?v=VCMSym5Q_EE&list=PLtluUSnvgbdF7MlqjX5-IVMCkFGTrEWlz
 stitcher:
 previously: ["Psyda Podcast with Minhaa‪j‬"]
-last_published: 2022-03-14 07:52:21
-frequency: 12
-duration: 1 hour 32 mins to 2 hours 11 mins
-status: inactive
+last_published: 2023-06-20 18:13:22
+frequency: 25
+duration: 1 hour 33 mins to 2 hours 11 mins
+status: active
 ---
