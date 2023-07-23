@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/channel/UCTfZskxCP5YlhFJQcAhtR2A
 last_published: 2023-06-02 10:00:00
 frequency: 10
 duration: 2 hours  to 2 hours 37 mins
-status: active
+status: inactive
 ---
