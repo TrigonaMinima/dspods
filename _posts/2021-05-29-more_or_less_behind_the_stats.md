@@ -14,8 +14,8 @@ overcast: https://overcast.fm/itunes267300884
 youtube:
 stitcher: https://www.stitcher.com/show/more-or-less-behind-the-stats-7209
 soundcloud:
-last_published: 2023-09-16 05:00:00
+last_published: 2023-09-20 09:40:00
 frequency: 5
-duration: 6 mins to 24 mins
+duration: 7 mins to 25 mins
 status: active
 ---
