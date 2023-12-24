@@ -12,7 +12,7 @@ spotify: https://open.spotify.com/show/1BZN7H3ikovSejhwQTzNm4
 apple_pod: https://podcasts.apple.com/us/podcast/data-skeptic/id890348705
 overcast: https://overcast.fm/itunes890348705/data-skeptic
 youtube:
-last_published: 2023-12-19 04:55:00
+last_published: 2023-12-23 19:51:00
 frequency: 7
 duration: 18 mins to 42 mins
 status: active
