@@ -12,7 +12,7 @@ spotify:
 apple_pod: https://itunes.apple.com/us/podcast/machine-learning-software-engineering-daily/id1230807136
 overcast: https://overcast.fm/itunes1230807136/machine-learning-software-engineering-daily
 youtube:
-last_published: 2023-12-26 10:00:32
+last_published: 2024-01-02 10:00:07
 frequency: 17
 duration: 43 mins to 58 mins
 status: active
