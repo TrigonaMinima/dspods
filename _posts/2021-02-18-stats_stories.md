@@ -13,8 +13,8 @@ apple_pod: https://podcasts.apple.com/us/podcast/stats-stories/id807504453
 youtube:
 soundcloud: https://soundcloud.com/statsandstories
 overcast: https://overcast.fm/itunes807504453/stats-stories
-last_published: 2024-01-11 14:00:29
+last_published: 2024-01-18 14:00:25
 frequency: 6
-duration: 16 mins to 34 mins
+duration: 16 mins to 33 mins
 status: active
 ---
