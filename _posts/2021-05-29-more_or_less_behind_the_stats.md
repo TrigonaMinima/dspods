@@ -16,6 +16,6 @@ stitcher: https://www.stitcher.com/show/more-or-less-behind-the-stats-7209
 soundcloud:
 last_published: 2024-04-06 05:00:00
 frequency: 5
-duration: 6 mins to 24 mins
+duration: 7 mins to 24 mins
 status: active
 ---
