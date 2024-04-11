@@ -14,7 +14,7 @@ overcast: https://overcast.fm/itunes1186480811/the-ai-podcast
 youtube:
 stitcher: http://www.stitcher.com/s?fid=130629&refid=stpr
 last_published: 2024-05-03 00:00:00
-frequency: 13
+frequency: 12
 duration: 21 mins to 35 mins
 status: active
 ---
