@@ -16,5 +16,5 @@ stitcher: https://www.stitcher.com/show/data-viz-today
 last_published: 2024-05-29 13:32:12
 frequency: 21
 duration: 5 mins to 40 mins
-status: active
+status: inactive
 ---
