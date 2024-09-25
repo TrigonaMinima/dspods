@@ -16,5 +16,5 @@ stitcher:
 last_published: 2024-08-15 08:07:57
 frequency: 8
 duration: 46 mins to 1 hour 4 mins
-status: active
+status: inactive
 ---
