@@ -14,8 +14,8 @@ overcast: https://pca.st/itunes/1538368692
 youtube:
 stitcher:
 soundcloud:
-last_published: 2024-08-06 11:00:00
+last_published: 2024-10-21 19:00:00
 frequency: 7
 duration: 42 mins to 1 hour 18 mins
-status: inactive
+status: active
 ---
